@@ -10,7 +10,7 @@ This project was created using Python via Google Colab.
 Apparently both bees (https://www.medicalnewstoday.com/articles/why-are-bees-important-to-humans#why-are-bees-important) and wasps (https://www.wired.com/story/whats-the-point-of-wasps-anyway/) are incredibly important and essential to the planet, but their roles are quite different. Being able to classify them ought to be beneficial, not only to environmentalists, but as summer is rapidly approaching, it ought to be important to the general barbecuer as well. Wasps are generally thought to be more aggressive than bees and do not die after utilizing their more painful stinger, so knowing the difference may help in avoiding some agony.
 
 ## Data:
-Kagle data
+Kagle data: https://www.kaggle.com/datasets/jerzydziewierz/bee-vs-wasp/data
 
 ## Data analysis: Sean_Nakagomi_Education_Analysis.ipynb
 TEXT.
