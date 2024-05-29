@@ -12,9 +12,6 @@ Apparently both bees (https://www.medicalnewstoday.com/articles/why-are-bees-imp
 ## Data:
 Kagle data
 
-## Data prep: Sean_Nakagomi_Education_Inequality_Data_Preparation.ipynb
-TEXT.
-
 ## Data analysis: Sean_Nakagomi_Education_Analysis.ipynb
 TEXT.
 
