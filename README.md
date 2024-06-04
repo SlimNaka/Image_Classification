@@ -1,4 +1,4 @@
-# Image_Classification: Bees & Wasps
+# Image_Classification: Japanese Calligraphy
 
 ## Authors:
 Sean Nakagomi, instructed by Dr. Galen Egan
@@ -7,13 +7,27 @@ Sean Nakagomi, instructed by Dr. Galen Egan
 This project was created using Python via Google Colab.
 
 ## Introduction:
-Apparently both bees (https://www.medicalnewstoday.com/articles/why-are-bees-important-to-humans#why-are-bees-important) and wasps (https://www.wired.com/story/whats-the-point-of-wasps-anyway/) are incredibly important and essential to the planet, but their roles are quite different. Being able to classify them ought to be beneficial, not only to environmentalists, but as summer is rapidly approaching, it ought to be important to the general barbecuer as well. Wasps are generally thought to be more aggressive than bees and do not die after utilizing their more painful stinger, so knowing the difference may help in avoiding some agony.
+Thanks to my old man not wanting to teach me his native language when I was a young child, my Japanese sucks. Reading is especially difficult and when reading handwritten characters, especially calligraphy, I'm practically illiterate.
+
+In this notebook, I will use the KMNIST dataset to see if we can differentiate between various hiragana characters in calligraphy.
 
 ## Data:
-Kagle data: https://www.kaggle.com/datasets/jerzydziewierz/bee-vs-wasp/data
+The data is from one of TensorFlow's built-in datasets: KMNIST.
 
-## Data analysis: Sean_Nakagomi_Education_Analysis.ipynb
-TEXT.
+This dataset is a replacement for the MNIST dataset (28x28 grayscale, 70,000 images), but due to the restriction of 10 classes (or labels), we have the following characters representing each of the 10 rows of Hiragana: お, き, す, つ, な, は, ま, や, れ, and を.
+
+## Data analysis: Sean_Nakagomi_Image_Classification.ipynb
+We first uploaded the data, splitting it into the predetermined train and test set and included all information and labels.
+
+We checked the shape and viewed a sample of each of the ten images.
+
+For preprocessing, we flattened all images into a 1D array and normalized them, maintaining the train and test set and their labels.
+
+We then created a neural network with adjustable values that affect the accuracy and speed of the model.
+
+We passed the preprocessed images through the neural network multiple times, changing the combination of adjustable numbers each time, tracking and saving each sweep. The most accurate trial number is noted each time and is used to show the accuracy of the model and then visualized by generating a confusion matrix.
+
+We finish with a discussion of the results and a brief recap of the notebook as a whole.
 
 ## Licence:
 MIT License
