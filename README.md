@@ -17,7 +17,7 @@ The data is from one of TensorFlow's built-in datasets: KMNIST.
 This dataset is a replacement for the MNIST dataset (28x28 grayscale, 70,000 images), but due to the restriction of 10 classes (or labels), we have the following characters representing each of the 10 rows of Hiragana: お, き, す, つ, な, は, ま, や, れ, and を.
 
 ## Data analysis: Sean_Nakagomi_Image_Classification.ipynb
-We first uploaded the data, splitting it into the predetermined train and test set and included all information and labels.
+We first uploaded the data, splitting it into the predetermined train and test sets, and included all information and labels.
 
 We checked the shape and viewed a sample of each of the ten images.
 
