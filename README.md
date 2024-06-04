@@ -13,7 +13,7 @@ In this notebook, I will use the KMNIST dataset to see if we can differentiate b
 
 ## Data:
 The data is from one of TensorFlow's built-in datasets: KMNIST.
-Translated homepage: http://codh.rois.ac.jp/kmnist/index.html.en
+Translated homepage [here](http://codh.rois.ac.jp/kmnist/index.html.en).
 
 This dataset is a replacement for the MNIST dataset (28x28 grayscale, 70,000 images), but due to the restriction of 10 classes (or labels), we have the following characters representing each of the 10 rows of Hiragana: お, き, す, つ, な, は, ま, や, れ, and を.
 
